@@ -4,7 +4,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-  double vet[100], x, y=0, c=0;
+  double vet[100], x;
+  int y=0, c=0;
   for (int i = 0; i < 100; i++) {
     cin>> x;
     if(x!=0){
