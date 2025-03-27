@@ -4,14 +4,14 @@
 #include <iostream>
 using namespace std;
 
-int quad1(int x){
-  return x*x;
+int soma(int a, int b){
+  return a+b;
 }
-int quad2(int y){
-  return y*y;
+int quad(int c){
+  return c*c;
 }
-int quadSoma(int a, int b){
-  return quad1(a)+quad2(b);
+int quadSoma(int d, int e){
+  return soma(quad(d), quad(e));
 }
 
 int main(){
